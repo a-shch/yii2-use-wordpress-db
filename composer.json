@@ -1,0 +1,33 @@
+{
+    "name": "a-shch/yii2-use-wordpress-db",
+    "description": "Using Wordpress DB in Yii2",
+    "stability":"dev",
+    "type": "yii2-extension",
+    "keywords": [
+        "yii",
+        "yii2",
+        "extension",
+        "wordpress"
+    ],
+    "license": "GNU",
+    "authors": [
+        {
+            "name": "A-Shcherbyna",
+            "email": "a@shcherbyna.dp.ua",
+            "homepage": "https://shcherbyna.dp.ua/",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "yiisoft/yii2": "2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ashch\\wordpressdb\\": "src"
+        }
+    },
+    "repositories": [
+    ]
+}
